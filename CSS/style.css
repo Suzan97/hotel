@@ -1,0 +1,292 @@
+* {
+    overflow: hidden;
+ }
+body {
+    position: relative;
+     width: 100%; 
+    height: auto;
+    background: #FFFFFF;
+   
+}
+
+nav { 
+    position: relative;
+    width: 100%;
+    height: 45%;
+} 
+ 
+.back-img {
+    height: 45rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Rectangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.grey {
+    position: absolute;
+    background: #5C5959;
+    height: 10%;
+    width: 100%;
+}
+nav .navbar {   
+    position: absolute;
+    width: 100%;
+    height: 10px;
+}
+nav .logo {
+    position: absolute;
+    font-family: 'Dr Sugiyama';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 58px;
+    float: left;
+    color: #F77F00;
+}
+nav li {
+    float: right;
+}
+nav ul {
+    list-style: none;
+}
+
+.navbar .logo{
+    position: absolute;
+    width: 1338px;
+    height: 66px;
+
+}
+  
+.nav1 {
+    position: absolute;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F77F00;
+}
+/* Facilities */
+.nav2 {
+    position: absolute; 
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;    
+    color: #F77F00;
+
+} 
+/* Accomodation */
+.nav3 {
+    position: absolute;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F77F00;
+}
+/* Crown Resort */
+ .nav4 { 
+    position: absolute;
+    font-family: 'Dr Sugiyama';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 58px;
+    color: #F77F00;
+} 
+
+
+nav .border {
+    position: absolute;
+    width: 434px;
+    height: 116px;
+    background: #FFFFFF;
+    border: 1px solid #F7CFA4;
+    box-sizing: border-box;
+}
+
+.desc1 {
+    position: absolute;
+    width: 68px;
+    height: 23px; 
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.border,
+nav desc2 {
+    position: absolute;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.border,
+nav desc3 {
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.border
+.border img-stars {
+    position: absolute;
+    width: 158px;
+    height: 35px;
+    background: url("stars.png");
+}
+button {
+    position: absolute;
+    width: 247px;
+    height: 70px;
+    background: #F77F00;
+}
+
+button a {
+    position: absolute;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+} */
+
+/* .border1 {
+    position: absolute;
+    width: 503px;
+    height: 363px;
+    background: #E5E5E5;
+}
+.border1,
+.border1 paragraph1 {
+    position: absolute;
+    width: 405px;
+    height: 538px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #5A5757;
+}
+.pic {
+    position: absolute;
+    width: 606px;
+    height: 725px;
+    background: url("hotel1.png");
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+}
+.paragraph2 {
+    position: absolute;
+    width: 525px;
+    height: 19px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+
+}
+.paragraph3 {
+    position: absolute;
+    width: 688px;
+    height: 65px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #2F2E2E;
+}
+.paragraph4 {
+    position: absolute;
+    width: 108px;
+    height: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.paragraph5 {
+    position: absolute;
+    width: 525px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.images {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.img1 {
+    position: absolute;
+    width: 288px;
+    height: 285px;
+    background: url("food.png");
+}
+.img2 {
+    position: absolute;
+    width: 288px;
+    height: 285px;
+    background: url("hotel2.png");
+}
+
+.img3 {
+    position: absolute;
+    width: 288px;
+    height: 285px;
+    background: url("swim.png");
+
+}
+
+.img4 {
+    position: absolute;
+    width: 288px;
+    height: 285px;
+    background: url("room4.png");
+
+}
+.img5 {
+    position: absolute;
+    object-fit: cover;
+    width: 288px;
+    height: 285px;
+    background: url("fac.png");
+} */
